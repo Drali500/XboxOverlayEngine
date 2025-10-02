@@ -1,0 +1,21 @@
+﻿namespace AchievementLoggers
+{
+    public class SkillConnection
+    {
+        // Placeholder properties — customize as needed
+        public string SkillName { get; set; }
+        public int Level { get; set; }
+
+        public SkillConnection(string skillName, int level)
+        {
+            SkillName = skillName;
+            Level = level;
+        }
+
+        // Optional: Add methods or logging hooks later
+        public override string ToString()
+        {
+            return $"{SkillName} (Level {Level})";
+        }
+    }
+}
